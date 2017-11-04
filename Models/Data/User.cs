@@ -10,7 +10,7 @@ namespace DotnetCoreServer.Models
         public string FacebookName;
         public string FacebookPhotoURL;
         public string FacebookAccessToken;
-        public int Point;
+        public int Point; 
         public string AccessToken;
         public DateTime CreatedAt;
         public int Diamond;
@@ -26,7 +26,20 @@ namespace DotnetCoreServer.Models
         public int Experience;
         public int ExpForNextLevel;
         public int ExpAfterLastLevel;
-
-
+        public string Name;
+        public int Mana;
+        public int Money;
+        public int MagicDamege;
+        public int SceneNumber;
+        public int Str;
+        public int Dex;
+        public int Int;
+        public int Con;
+        public int StatPoint;
+        public int xPos;
+        public int yPos;
+        public int zPos;
+        public float Critical;
+        public float CriticalDamege;
     }
 }
